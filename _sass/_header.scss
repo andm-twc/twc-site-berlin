@@ -64,11 +64,11 @@ header {
 
     @include mobile {
       font-size: 1em;
-      display: block;
-      text-align: right;
+      // display: block;
+      // text-align: right;
 
       li {
-        &:not(:last-child) {
+        &:not(:last-child(-n+2)) {
           display: none;
         }
       }
